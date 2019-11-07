@@ -9,9 +9,7 @@ topButton.addEventListener("click", function (e) { ScrollToTop(400); });
 function Scroll(e)
 {
 	var percent = window.scrollY / window.scrollMaxY * 100;
-
-	console.log(window.scrollY);
-
+	
 	progressBar.setAttribute("style", "width: " + percent + "%;");	
 }
 
