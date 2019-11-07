@@ -43,7 +43,7 @@ html, body
 	top: 0;
 	left: 0;
 	height: 2px;
-	background: #000;
+	background: #111;
 }
 
 .progress__bar
@@ -52,3 +52,4 @@ html, body
 	height: inherit;
 	background: #449ae6;
 }
+
