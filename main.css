@@ -5,7 +5,7 @@ html, body
 	padding: 0;
 	margin: 0;
 	font-family: arial;
-	font-size: 16px;
+	font-size: 18px;
 	background: #f4f4f4;
 	color: #111;
 }
@@ -18,16 +18,37 @@ html, body
 .wrapper__content
 {
 	padding: 5px;
+	width: 80%;
+	margin: 10px auto;
 }
 
 .wrapper__head
 {
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 10px 20px;
 	margin: 10px;
 	border-bottom: 2px solid #373737;
 }
 
 .wrapper__body
 {
-	width: 80%;
-	margin: 10px auto;
+	
+}
+
+.progress
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 2px;
+	background: #000;
+}
+
+.progress__bar
+{
+	width: 0%;
+	height: inherit;
+	background: #449ae6;
 }
