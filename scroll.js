@@ -1,8 +1,11 @@
+
+//Получаем объекты со страницы
 var progressBar = document.getElementById("progress__bar");
 var topButton = document.getElementById("top");
 
-var timer = null;
+var timer = null; //Переменная для таймера
 
+//Перехватываем события
 window.addEventListener("scroll", function (e) { Scroll(e); CheckScroll(e); });
 topButton.addEventListener("click", function (e) { ScrollToTop(400); });
 
